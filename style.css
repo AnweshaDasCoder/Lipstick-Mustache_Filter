@@ -4,12 +4,10 @@ background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  /* Chrome 10-2
 background: linear-gradient(to right, #92FE9D, #00C9FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-#img1 {
+#m{
     height: 20px;
     width: 30px;
 }
 
-#img2 {
-    height: 20px;
-    width: 30px;
-}
+canvas { animation-name: example; animation-duration: 4s; animation-iteration-count: infinite; } 
+@keyframes example { from {box-shadow: 1px 1px 38px blue;} to {box-shadow: 1px 1px 38px gold;} }
